@@ -74,10 +74,10 @@ function App() {
   }
 
   return (
-    <div className='min-h-screen bg-gray-50'>
-      <header className='bg-white border-b border-gray-200  flex justify-center'>
-        <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
-          <div className='flex items-center justify-between h-16'>
+    <div className='min-h-screen bg-gray-50 '>
+      <header className='bg-white border-b border-gray-200shadow-lg'>
+        <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 '>
+          <div className={`flex items-center justify-center h-16`}>
             <div className='flex items-center'>
               <GraduationCap className='w-8 h-8 text-blue-600' />
               <h1 className='ml-2 text-xl font-semibold text-gray-900'>
@@ -87,7 +87,7 @@ function App() {
             {selectedSubject && (
               <button
                 onClick={() => setSelectedSubject(null)}
-                className='text-blue-600 hover:text-blue-700 font-medium'
+                className='absolute text-blue-600 hover:text-blue-700 font-medium right-4 top-4'
               >
                 Volver a Materias
               </button>
