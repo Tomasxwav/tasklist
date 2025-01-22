@@ -29,8 +29,8 @@ export const initialData: Subject[] = [
           {
             id: '1.3',
             title: 'Objetivos y tipos de mantenimiento',
-            startDate: new Date('2025-02-03'),
-            endDate: new Date('2025-02-09'),
+            startDate: new Date('2024-02-03'),
+            endDate: new Date('2024-02-09'),
             completed: false,
             grade: 0,
           },

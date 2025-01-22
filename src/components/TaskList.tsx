@@ -69,6 +69,8 @@ export function TaskList({ tasks, onToggleTask }: TaskListProps) {
                 >
                   {new Date(task.startDate).toLocaleDateString()} -{' '}
                   {new Date(task.endDate).toLocaleDateString()}
+                  <br />
+                  valor: {task.grade}
                 </p>
               </div>
             </div>
