@@ -254,12 +254,20 @@ export const initialData: Subject[] = [
             grade: 5,
           },
           {
-            id: 'si-1.4',
+            id: 'si-emc',
             title: 'Examen Medio Curso',
             startDate: new Date('2025-03-19'),
             endDate: new Date('2025-03-19'),
             completed: false,
             grade: 21,
+          },
+          {
+            id: 'si-1.4',
+            title: 'A4: Cuestionario y resumen',
+            startDate: new Date('2025-03-02'),
+            endDate: new Date('2025-03-03'),
+            completed: false,
+            grade: 5,
           },
           {
             id: 'si-1.5',
