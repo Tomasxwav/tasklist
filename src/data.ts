@@ -238,7 +238,7 @@ export const initialData: Subject[] = [
         title: 'Unidad 1: Sistemas de información',
         tasks: [
           {
-            id: 'si-1.1',
+            id: 'si-1.1-1.2',
             title: 'Act 1 y Act 2: Crusigrama, cuestionario',
             startDate: new Date('2025-01-27'),
             endDate: new Date('2025-02-03'),
@@ -255,7 +255,7 @@ export const initialData: Subject[] = [
           },
           {
             id: 'si-emc',
-            title: 'Examen Medio Curso',
+            title: 'Guia y Examen Medio Curso',
             startDate: new Date('2025-03-19'),
             endDate: new Date('2025-03-19'),
             completed: false,
@@ -279,7 +279,7 @@ export const initialData: Subject[] = [
           },
           {
             id: 'si-1.6',
-            title: 'A6: Resumen',
+            title: 'A6: Resumen y actividad',
             startDate: new Date('2025-05-07'),
             endDate: new Date('2025-04-14'),
             completed: false,
@@ -294,7 +294,7 @@ export const initialData: Subject[] = [
             grade: 5,
           },
           {
-            id: 'si-1.8',
+            id: 'si-pia',
             title: 'Presentacion del pia',
             startDate: new Date('2025-05-21'),
             endDate: new Date('2025-05-23'),
@@ -302,21 +302,14 @@ export const initialData: Subject[] = [
             grade: 18,
           },
           {
-            id: 'si-1.9',
+            id: 'si-1.8',
             title: 'A8: Investigacion',
             startDate: new Date('2025-05-09'),
             endDate: new Date('2025-05-11'),
             completed: false,
             grade: 5,
           },
-          {
-            id: 'si-1.11',
-            title: 'A10: Resumen 3 hojas ',
-            startDate: new Date('2025-03-24'),
-            endDate: new Date('2025-04-03'),
-            completed: false,
-            grade: 5,
-          },
+
           {
             id: 'si-1.12',
             title: 'Examen Ordinario y guia',
